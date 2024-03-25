@@ -1,30 +1,13 @@
-# :rocket: Applied Data Science Capstone
-This Capstone is the 10th (final) course in [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) specialization, and it actually summarizes in the form of project all materials that have been learned during this specialization.
-## :page_facing_up: Project Background
-SpaceX is the most successful company of the commercial space 
-age, making space travel affordable. The company advertises Falcon 
-9 rocket launches on its website, with a cost of 62 million dollars; 
-other providers cost upward of 165 million dollars each, much of the 
-savings is because SpaceX can reuse the first stage. Therefore, if we 
-can determine if the first stage will land, we can determine the cost 
-of a launch. Based on public information and machine learning 
-models, we are going to predict if SpaceX will reuse the first stage.
-## :page_facing_up: Questions to be answered 
-- How do variables such as payload mass, launch site, number of 
-flights, and orbits affect the success of the first stage landing? 
-- Does the rate of successful landings increase over the years? 
-- What is the best algorithm that can be used for binary classification 
-in this case?
-## :page_facing_up: Methodology
-  ### 1. Data collection methodology
-  - Using SpaceX Rest API
-  - Using Web Scrapping from Wikipedia
-  ### 2. Performed data wrangling
-  - Filtering the data
-  - Dealing with missing values
-  - Using One Hot Encoding to prepare the data to a binary classification
-  ### 3. Performed exploratory data analysis (EDA) using visualization and SQL
-  ### 4. Performed interactive visual analytics using Folium and Plotly Dash
-  ### 5. Performed predictive analysis using classification models
-  - Building, tuning and evaluation of classification models to ensure the best
-  results
+# Applied Data Science Capstone
+
+This Capstone is the final project of the IBM Data Science Professional Certificate. It focuses on predicting the success of SpaceX's first stage landing based on variables such as payload mass, launch site, number of flights, and orbits. The project involves data collection from SpaceX Rest API and Wikipedia, data wrangling, exploratory data analysis, interactive visual analytics, and predictive analysis using classification models.
+
+The project is divided into the following parts:
+
+1. Data Collection: Collect data from SpaceX API and Wikipedia
+2. Data Wrangling: Clean and preprocess the data
+3. Exploratory Data Analysis: Analyze the data and visualize the relationships between variables
+4. Interactive Visual Analytics: Create interactive visualizations using Plotly
+5. Predictive Analysis: Build classification models to predict the success of the first stage landing
+
+The project is implemented using Python and Jupyter Notebook. The libraries used in this project include Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scikit-learn, and Folium.
